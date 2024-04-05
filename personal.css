@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: "outfit";
+    overflow-x: hidden;
+}
+
+.navigation{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    padding: 0 5%;
+    height: 90px;
+}
+
+.navigation img{
+    height: 30px ;
+}
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+    column-gap: 5%;
+    align-items: center;
+    justify-content: end;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.navigation ul :nth-child(6){
+    border: 3px solid #DF862E;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5% 10%;
+}
+
+.left-hero{
+    color: white;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.left-hero h1{
+    font-size: 48px;
+}
+.left-hero h1 span{
+    font-size: 48px;
+    color: #DF862E;
+    font-weight: 500;
+}
+
+.left-hero h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.left-hero p{
+    font-size: 16px;
+    font-weight: 200;
+
+}
+.left-hero button{
+    width: fit-content;
+    padding: 14px 32px ;
+    border-radius: 36px;
+    background-color: #DF862E;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
