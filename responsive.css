@@ -2,5 +2,56 @@
     html, body {
         overflow-x: hidden;
     }
-    
+
+    .right-hero img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .left-hero h1{
+        font-size: 36px;
+    }
+    .left-hero h1 span{
+        font-size: 36px;
+    }
+    .navigation ul{
+        column-gap: 3%;
+    }
+    .left-hero h3{
+        font-size: 26px;
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    .navigation ul{
+        display: none;
+    }
+    .contact{
+        display: block;
+    }
+
+    .navigation{
+       display: grid;
+       grid-template-columns: auto auto;
+       justify-content: space-between;
+       align-items: center;
+    }
+
+}
+
+@media screen and (max-width:836px) {
+    .hero{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .button-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

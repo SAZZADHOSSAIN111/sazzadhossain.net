@@ -7,12 +7,11 @@
 body{
     background-color: black;
     font-family: "outfit";
-    overflow-x: hidden;
 }
 
 .navigation{
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 20% 80% auto;
     align-items: center;
     padding: 0 5%;
     height: 90px;
@@ -36,10 +35,14 @@ body{
     font-weight: 600;
 }
 
-.navigation ul :nth-child(6){
+.navigation ul :nth-child(6), .contact{
     border: 3px solid #DF862E;
     padding: 10px 20px;
     border-radius: 20px;
+}
+
+.contact{
+    display: none;
 }
 
 .hero{
@@ -74,8 +77,8 @@ body{
 .left-hero p{
     font-size: 16px;
     font-weight: 200;
-
 }
+
 .left-hero button{
     width: fit-content;
     padding: 14px 32px ;
