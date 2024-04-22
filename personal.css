@@ -95,7 +95,9 @@ body{
     height: fit-content;
     padding: 2% 5% 2% 5%;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 35% 75%;
+    column-gap: 10px;
+
 }
 
 .aboutme-left-side{
@@ -117,7 +119,7 @@ body{
     position: absolute;
     transform: translate(20%, 20%);
     border-radius: 24px;
-    background-size: 500px;
+    background-size: 100% auto;
     background-position:50% 20% ; 
 }
 
@@ -126,7 +128,6 @@ body{
 }
 
 .aboutme-rightside{
-    /* background-color: red; */
     width: auto;
     height: auto;
 }
@@ -135,13 +136,39 @@ body{
     position: absolute;
 }
 .aboutme-heading1{
-    font-size: 160px;
-    /* color: white; */
+    font-size: 10vw;
+    color: transparent;
     -webkit-text-stroke: 1px#DF862E;
+
+    position: relative;
 }
 .aboutme-heading2{
-    font-size: 68px;
+    position: absolute;
+    font-size: 4vw;
     color: white;
-    /* -webkit-text-stroke: 2px#DF862E; */
     transform: translate(110%, 140%);
+}
+
+.aboutme-details{
+    color: white;
+    margin-top: 25%;
+}
+
+.aboutme-details h1{
+    font-size:2vw ;
+    font-weight: medium;
+
+}
+
+.aboutme-details h4{
+    font-size:.8vw ;
+    font-weight: medium;
+    color:#ffffff70 ;
+}
+.aboutme-details p{
+    font-size:.8vw ;
+    font-weight: medium;
+    color:#ffffff70 ;
+    margin-top: 20px;
+
 }

@@ -24,6 +24,10 @@
         font-weight: 400;
     }
 
+    .aboutme-left-side{
+        width: 20%;
+    }
+
 }
 
 @media screen and (max-width:1000px) {
