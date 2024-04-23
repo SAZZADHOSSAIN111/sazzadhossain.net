@@ -139,7 +139,6 @@ body{
     font-size: 10vw;
     color: transparent;
     -webkit-text-stroke: 1px#DF862E;
-
     position: relative;
 }
 .aboutme-heading2{
@@ -157,7 +156,6 @@ body{
 .aboutme-details h1{
     font-size:2vw ;
     font-weight: medium;
-
 }
 
 .aboutme-details h4{
@@ -170,5 +168,6 @@ body{
     font-weight: medium;
     color:#ffffff70 ;
     margin-top: 20px;
+    /* width: 20%; */
 
 }
