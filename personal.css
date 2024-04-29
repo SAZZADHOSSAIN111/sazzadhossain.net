@@ -35,7 +35,7 @@ body{
     font-weight: 600;
 }
 
-.navigation ul :nth-child(6), .contact{
+.navigation ul :nth-child(6){
     border: 3px solid #DF862E;
     padding: 10px 20px;
     border-radius: 20px;
