@@ -35,7 +35,7 @@ body{
     font-weight: 600;
 }
 
-.navigation ul :nth-child(6), .contact{
+.navigation ul :nth-child(6){
     border: 3px solid #DF862E;
     padding: 10px 20px;
     border-radius: 20px;
@@ -88,4 +88,86 @@ body{
     color: white;
     font-size: 15px;
     margin-top: 10px;
+}
+.aboutme{
+    background-color:#0F0F15 ;
+    width: 100%;
+    height: fit-content;
+    padding: 2% 5% 2% 5%;
+    display: grid;
+    grid-template-columns: 35% 75%;
+    column-gap: 10px;
+
+}
+
+.aboutme-left-side{
+    width: 40%;
+    padding: 20% 0;
+}
+
+.aboutme-blackbackground{
+    height: 470px;
+    width: 365px;
+    background-color: #00000075;
+    border-radius: 24px;
+}
+
+.about-me-image{
+    height: 340px;
+    width: 340px;
+    background-image: url(images/myself-02.jpg);
+    position: absolute;
+    transform: translate(20%, 20%);
+    border-radius: 24px;
+    background-size: 100% auto;
+    background-position:50% 20% ; 
+}
+
+.about-me-image img{
+    height: 300px;
+}
+
+.aboutme-rightside{
+    width: auto;
+    height: auto;
+}
+
+.aboutme-heading h1{
+    position: absolute;
+}
+.aboutme-heading1{
+    font-size: 10vw;
+    color: transparent;
+    -webkit-text-stroke: 1px#DF862E;
+    position: relative;
+}
+.aboutme-heading2{
+    position: absolute;
+    font-size: 4vw;
+    color: white;
+    transform: translate(110%, 140%);
+}
+
+.aboutme-details{
+    color: white;
+    margin-top: 25%;
+}
+
+.aboutme-details h1{
+    font-size:2vw ;
+    font-weight: medium;
+}
+
+.aboutme-details h4{
+    font-size:.8vw ;
+    font-weight: medium;
+    color:#ffffff70 ;
+}
+.aboutme-details p{
+    font-size:.8vw ;
+    font-weight: medium;
+    color:#ffffff70 ;
+    margin-top: 20px;
+    /* width: 20%; */
+
 }

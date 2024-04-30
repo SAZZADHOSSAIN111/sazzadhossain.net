@@ -9,6 +9,19 @@
     }
 }
 
+@media screen and (max-width:1300px) {
+    .aboutme-blackbackground{
+        height: 300px;
+        width: 250px;
+    }
+
+    .about-me-image{
+        height: 210px;
+        width: 240px;
+    }
+
+}
+
 @media screen and (max-width:1150px) {
     .left-hero h1{
         font-size: 36px;
@@ -24,6 +37,10 @@
         font-weight: 400;
     }
 
+    .aboutme-left-side{
+        width: 20%;
+    }
+
 }
 
 @media screen and (max-width:1000px) {
@@ -34,12 +51,29 @@
         display: block;
     }
 
+    .contact img{
+        height: 18px;
+        margin: 5px 0 0 20px;
+
+    }
+
     .navigation{
        display: grid;
        grid-template-columns: auto auto;
        justify-content: space-between;
        align-items: center;
+       /* justify-content: center; */
     }
+    .aboutme-blackbackground{
+        height: 250px;
+        width: 180px;
+    }
+
+    .about-me-image{
+        height: 180px;
+        width: 180px;
+    }
+
 
 }
 
@@ -54,4 +88,89 @@
         justify-content: center;
         align-items: center;
     }
+    .aboutme-blackbackground{
+        height: 400px;
+        width: 300px;
+        /* margin-left: 100px; */
+    }
+
+    .about-me-image{
+        height: 290px;
+        width: 330px;
+        transform: translate(-5%, 20%);
+    }
+
+    .aboutme{
+        background-color:#0F0F15 ;
+        width: 100%;
+        height: fit-content;
+        padding: 2% 5% 2% 5%;
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 20px;
+        justify-content: center;
+    
+    }
+    .aboutme-rightside h1{
+        position: static;
+    }
+    .aboutme-heading1{
+        font-size: 70px;
+        text-align: center;
+    }
+    .aboutme-heading2{
+        font-size: 32px;
+        transform: translate(30%, -100%);
+    }
+    .aboutme-details{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+    }
+    .aboutme-left-side{
+        width: 40%;
+        padding: 0;
+        margin-left: 10%;
+    }
+
+    .aboutme-details h1{
+        font-size:30px ;
+        font-weight: medium;
+    }
+    .aboutme-details h4{
+        font-size:12px ;
+        font-weight: medium;
+        color:#ffffff70 ;
+    }
+    .aboutme-details p{
+        font-size:12px ;
+        font-weight: medium;
+        color:#ffffff70 ;
+        margin-top: 20px;
+    
+    }
+}
+
+@media screen and ( max-width:400px) {
+
+    .aboutme-blackbackground{
+        height: 300px;
+        width: 280px;
+    }
+
+    .about-me-image{
+        height: 280px;
+        width: 300px;
+        margin-left: 1%;
+    }
+    .aboutme-heading1{
+        margin-top: 30px;
+        font-size: 55px;
+        text-align: center;
+    }
+    .aboutme-heading2{
+        font-size: 28px;
+        transform: translate(30%, -100%);
+    }
+    
 }
