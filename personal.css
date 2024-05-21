@@ -171,3 +171,40 @@ body{
     /* width: 20%; */
 
 }
+
+.progress, h1,h2{
+    color: white;
+    margin-top: 20px;
+}
+
+.progress{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.progress, h1{
+    grid-column: 1/4;
+}
+
+.html{
+    height: 5px;
+    width: 400px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.html1{
+    height: 5px;
+    width: 90%;
+    background-color: #DF862E;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.CSS{
+    width:  80%;
+}
+.php{
+    width:  70%;
+}
